@@ -1,13 +1,346 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <title>My First Parcel App</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="app.js"></script>
-  </head>
-  <body>
-    <h1>Hello, Parcel!</h1>
-    <p>This is a vanilla web app built with Parcel 2!<br>Check out the <a href="https://parceljs.org/getting-started/webapp/" target="_blank">getting started guide</a> and the <a href="https://parceljs.org/docs/" target="_blank">documentation</a> to learn more!</p>
-  </body>
+
+<head>
+  <title> AWS Re/Start Presentations</title>
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="reveal.css">
+  <link rel="stylesheet" href="sky.css">
+
+  <link rel="stylesheet" href="monokai.css">
+</head>
+
+<body>
+  <div class="reveal">
+		<div class="slides">
+
+			<section data-auto-animate>
+				<iframe src="https://giphy.com/embed/SZUnyVdIDAEQU" width="980" height="700" frameBorder="0"
+					class="giphy-embed"></iframe>
+			</section>
+
+			<section id="intro" data-auto-animate data-auto-animate-unmatched="fade">
+				<h3>WEB 3.0 & The Crypto Web</h3>
+				<ul>
+					<li><a href="#/web1">Web 1.0 </a> - <span class="emphasis">The Origin</span></li>
+					<li><a href="#/web2">Web 2.0 </a> - <span class="emphasis">The Social Network</span></li>
+					<li><a href="#/web3"> Web 3.0 </a> - <span class="emphasis">The Hype</span></li>
+					<li><a href="#/web3-cloud"> Web 3.0 </a> - <span class="emphasis">The Cloud</span> </li>
+					<!-- <li><a href="#/"></a></li> -->
+				</ul>
+			</section>
+
+			<section id="web1">
+				<section data-auto-animate>
+					<h3>Web 1.0 | 1994 -2004 </h3>
+					<ul>
+						<li>
+							Founded by <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+								target="_blank"><strong>Sir</strong> Tim Berners-lee</a>
+						</li>
+						<li>
+							A Web of Information
+						</li>
+						<li>
+							World Wide Web Consortium (W3C)
+						</li>
+					</ul>
+				</section>
+
+				<section data-auto-animate>
+					<picture>
+						<source media="(min-width:650px)" srcset="./assets/web3/cern-browser.png">
+						<source media="(min-width:465px)" srcset="./assets/web3/cern-browser.png">
+						<img src="./assets/web3/cern-browser.png" alt="CERN Browser" style="width:90%;height:80%">
+						<a href="https://worldwideweb.cern.ch/browser/" target="_blank">CERN Browser</a>
+					</picture>
+				</section>
+
+				<section data-auto-animate>
+					<picture>
+						<source media="(min-width:650px)" srcset="./assets/web3/web1-elements.png">
+						<source media="(min-width:465px)" srcset="./assets/web3/web1-elements.png">
+						<img src="./assets/web3/web1-elements.png" alt="WEB 1.0 Elements" style="width:80%;height:80%">
+					</picture>
+				</section>
+
+				<section data-auto-animate>
+					<h4>
+						<a
+							href="https://edition.cnn.com/2015/01/02/world/gallery/cnn-homepage-through-the-years/index.html">CNN's
+							homepage through the years</a>
+					</h4>
+					<picture>
+						<source media="(min-width:650px)" srcset="./assets/web3/cnn-web.png">
+						<source media="(min-width:465px)" srcset="./assets/web3/cnn-web.png">
+						<img src="./assets/web3/cnn-web.png" alt="CNN Browser" style="width:100%;height:90%">
+					</picture>
+				</section>
+
+			</section>
+
+			<section id="web2">
+				<section data-auto-animate>
+					<h3>Web 2.0 | 2004 - 2016</h3>
+					<ul>
+						<li>
+							<a href="https://en.wikipedia.org/wiki/O%27Reilly_Media">O'Reilly Media</a> -
+							<a href="https://de.wikipedia.org/wiki/Tim_O%E2%80%99Reilly">Tim O’Reilly</a> &
+							<a href="https://en.wikipedia.org/wiki/Dale_Dougherty">Dale Dougherty</a>
+						</li>
+						<li>
+							The Social Media & Mobile First Web
+						</li>
+					</ul>
+					<div>
+						<img src="https://upload.wikimedia.org/wikipedia/de/9/9f/Twitter_bird_logo_2012.svg"
+							alt="facebook logo" height="72" width="72" />
+						<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
+							alt="facebook logo" height="192" width="192" />
+						<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Amazon.com-Logo.svg"
+							alt="amazon logo" height="192" width="192" />
+						<img src="./assets/web3/Facebook-Logo.svg" alt="facebook logo" height="192" width="192" />
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
+							alt="google logo" height="90" width="300" />
+					</div>
+				</section>
+
+				<section data-auto-animate>
+					<div style="border: 1px solid darkgray;">
+						<iframe src="https://giphy.com/embed/atZII8NmbPGw0" width="712" height="450" frameBorder="0"
+							class="giphy-embed" allowFullScreen></iframe>
+					</div>
+					<span>
+						What about infinite Scrolling?
+					</span>
+				</section>
+
+				<section data-auto-animate>
+					<div style="border: 1px solid darkgray;">
+						<picture>
+							<source media="(min-width:650px)" srcset="./assets/web3/facebook-gate.png">
+							<source media="(min-width:465px)" srcset="./assets/web3/facebook-gate.png">
+							<img src="./assets/web3/facebook-gate.png" alt="CERN Browser" style="width:50%;height:50%">
+						</picture>
+					</div>
+					<a href="https://www.bbc.com/news/technology-46618582">Facebook-Cambridge Analytica scandal </a>
+				</section>
+
+				<section data-auto-animate>
+					<div style="border: 1px solid darkgray;">
+						<picture>
+							<source media="(min-width:650px)" srcset="./assets/web3/social-dilema-netflix.png">
+							<source media="(min-width:465px)" srcset="./assets/web3/social-dilema-netflix.png">
+							<img src="./assets/web3/social-dilema-netflix.png" alt="CERN Browser"
+								style="width:100%;height:100%">
+						</picture>
+					</div>
+					<a href="https://www.netflix.com/de/title/81254224">The Social Dilemma</a>
+				</section>
+			</section>
+
+			<section id="web3">
+				<section data-auto-animate>
+					<h3>Web 3.0 | 2016 - present</h3>
+					<ul>
+						<li>
+							The Semantic Web - AI - Machine Learning
+						</li>
+						<li>
+							The Exchange of Money and Information
+						</li>
+						<li>
+							Blockchain - Bitcoin - LightCoin
+						</li>
+					</ul>
+				</section>
+
+				<section data-background-transition="slide" data-background-size="1400px"
+					data-background="./assets/web3/web3-policy.png">
+				</section>
+
+				<section data-background-transition="slide" data-background-size="1400px"
+					data-background="./assets/web3/evolution-web.png">
+				</section>
+
+				<section data-background-transition="slide" data-background-size="1400px"
+					data-background="./assets/web3/crypto-market.png">
+					<!-- <a href="https://coinmarketcap.com/de/" target="_blank">Current Market</a> -->
+				</section>
+
+				<section data-background-transition="slide" data-background-size="1400px"
+					data-background="./assets/web3/opera-web3.png">
+				</section>
+
+				<section data-auto-animate>
+					<h3>Is this just a Hype?</h3>
+					<ul>
+						<li>
+							Cryptocurrencies are a <em>‘greater fool theory’</em> investment, but the underlying
+							blockchain technology has applications beyond just creating <em>asset bubbles </em>.
+						</li>
+						<li>
+							<a href="https://www.stephendiehl.com/blog/web3-bullshit.html">
+								Web3 is Bull***t! - <em>Stephen Diehl</em>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.stephendiehl.com/blog/against-crypto.html">
+								The Case Against Crypto
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://www.cisl.cam.ac.uk/resources/sustainability-horizons/september-2019/environmental-footprint-of-cryptocurrency">
+								The Mining Problem
+							</a>
+						</li>
+					</ul>
+				</section>
+
+				<section data-auto-animate>
+					<div style="border: 1px solid darkgray;">
+						<picture>
+							<source media="(min-width:650px)" srcset="./assets/web3/bitcoin-loses.png">
+							<source media="(min-width:465px)" srcset="./assets/web3/bitcoin-loses.png">
+							<img src="./assets/web3/bitcoin-loses.png" alt="Bitcoin loses" style="width:50%;height:50%">
+						</picture>
+					</div>
+				</section>
+			</section>
+
+			<section id="web3-cloud">
+				<section data-auto-animate>
+					<h3>Web 3.0 & the Public Cloud</h3>
+					<ul>
+						<li>
+							Multi Cloud | AWS - MS Azure - Google GCP
+						</li>
+						<li>
+							Blockchain as a Service (BaaS)
+						</li>
+						<li>
+							Web3 Applications (DAPP)
+						</li>
+						<!-- https://acloudguru.com/blog/engineering/blockchain-cloud-comparison-what-is-blockchain-as-a-service-baas -->
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h5><a href="https://101blockchains.com/aws-vs-azure-vs-oracle-blockchain/">101Blockchain</a></h5>
+					<div style="border: 1px solid darkgray;">
+						<picture>
+							<source media="(min-width:650px)" srcset="./assets/web3/baas.png">
+							<source media="(min-width:465px)" srcset="./assets/web3/baas.png">
+							<img src="./assets/web3/baas.png" alt="Blockchain as a Service"
+								style="width:100%;height:100%">
+						</picture>
+					</div>
+				</section>
+
+				<section data-auto-animate>
+					<h5><a href="https://aws.amazon.com/blockchain/?nc1=h_ls">AWS Blockchain</a></h5>
+					<div style="border: 1px solid darkgray;">
+						<picture>
+							<source media="(min-width:650px)" srcset="./assets/web3/aws-baas.png">
+							<source media="(min-width:465px)" srcset="./assets/web3/aws-baas.png">
+							<img src="./assets/web3/aws-baas.png" alt="AWS Blockchain as a Service"
+								style="width:80%;height:80%">
+						</picture>
+					</div>
+				</section>
+
+				<section data-auto-animate>
+					<h5><a href="https://aws.amazon.com/blockchain/?nc1=h_ls">DAPP (Decentralized APPlications)</a></h5>
+					<div style="border: 1px solid darkgray;">
+						<picture>
+							<source media="(min-width:650px)" srcset="./assets/web3/web3-apps.png">
+							<source media="(min-width:465px)" srcset="./assets/web3/web3-apps.png">
+							<img src="./assets/web3/web3-apps.png" alt="Bclockchain as a Service"
+								style="width:60%;height:60%">
+						</picture>
+					</div>
+				</section>
+
+				<section data-auto-animate>
+					<h4> <a href="https://essentia.one/"> Essentia One OS </a></h4>
+					<video src="https://essentia.one/video/Create_BTC_&_Receive.mp4" autoplay controls></video>
+				</section>
+
+
+				<section data-auto-animate>
+					<h5><a href="">Gartner Hype Cycle "Emerging Technologies"</a></h5>
+					<div style="border: 1px solid darkgray;">
+						<picture>
+							<source media="(min-width:650px)" srcset="./assets/web3/hypecycle.png">
+							<source media="(min-width:465px)" srcset="./assets/web3/hypecycle.png">
+							<img src="./assets/web3/hypecycle.png" alt="Bclockchain as a Service"
+								style="width:80%;height:80%">
+						</picture>
+					</div>
+				</section>
+
+				<section data-auto-animate>
+					<h5><a href="">The Web 1.0 - 3.0</a></h5>
+					<div style="border: 1px solid darkgray;">
+						<picture>
+							<source media="(min-width:650px)" srcset="./assets/web3/summarize.jpg">
+							<source media="(min-width:465px)" srcset="./assets/web3/summarize.jpg">
+							<img src="./assets/web3/summarize.jpg" alt="Bclockchain as a Service"
+								style="width:100%;height:100%">
+						</picture>
+					</div>
+				</section>
+
+			</section>
+
+			<section data-background-transition="slide" data-background-size="900px"
+				data-background="./assets/web3/ask.jpeg">
+			</section>
+
+			<section data-auto-animate>
+				<a href="https://dev.to/narottam04/web-10-web-20-web-30-explained-591n">web1-3 explained</a>
+				<a href="https://messari.io">messari</a>
+				<a href="https://a16z.com/web3-policy/">web3 Policy</a>
+				<a href="https://www.youtube.com/watch?v=V_hWgZc9xrU">The future of blockchain</a>
+				<a href="https://opencollective.com/democracyearth">Open Collective</a>
+				<a href="https://techcrunch.com/2016/12/30/blockchain-technologies-entered-the-trough-of-disillusionment-in-2016-but-2017-will-be-brighter/">Hype Cycle</a>
+				<a href="https://john-mecke.medium.com/5-stories-about-people-who-lost-their-bitcoin-cdaaae329468">Blockchain loses</a>
+				<a href="https://101blockchains.com/aws-vs-azure-vs-oracle-blockchain/">101Blockchains</a>
+				<a href="https://www.stephendiehl.com/blog/blockchainism.html">Stephen Diehl</a>
+				<a href="https://thenewstack.io/aleph-im-is-like-a-decentralized-aws-lambda-for-web3-dapps/">web3-dapps</a>
+				<a href="https://academy.101blockchains.com/courses/ethereum-technology-course">Etherum Course</a>
+				<a href="https://medium.com/the-capital/what-is-web3-and-why-is-it-important-to-understand-in-2022-904deedb86cd">Why Web3</a>
+				<a href="https://lbry.com/">LBRY</a>
+			</section>
+
+			<section id="navigation">
+				<h2>Overview</h2>
+				<ul>
+					<li><a href="#/web1">Web 1.0 </a> - <span class="emphasis">The Origin</span></li>
+					<li><a href="#/web2">Web 2.0 </a> - <span class="emphasis">The Social Network</span></li>
+					<li><a href="#/web3"> Web 3.0 </a> - <span class="emphasis">The Hype</span></li>
+					<li><a href="#/web3-cloud"> Web 3.0 </a> - <span class="emphasis">The Cloud</span> </li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<script src="reveal.js"></script>
+	<script src="notes.js"></script>
+	<script src="markdown.js"></script>
+	<script src="highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
