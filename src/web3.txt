@@ -1,0 +1,147 @@
+Intro
+
+I want to give a very brief contextual concepts within Web1, Web2, and Web3.
+Please dont blame me if you know some information in details be 
+free to speak about it at the end of the presentation
+
+For users and most for developers the web has evolved dramatically over the years.
+For this presentation I want to explore the web and discuss about the state of art 
+and take some Ideas for the future
+
+web1
+The concept of hypertext predates the world wide web for several decades.
+the almost hypertext systems relied on local files.
+Here Sir Tim Berners-Lee, English computer scientist,
+implemented the first successful communication between a client and server via Hypertext Transfer Protocol (HTTP) via the Internet.
+This allow individuals to link from one file on one machine to another file on another.
+
+dec 1990 Berners-Lee develop the first file browsing application. a Browser and file Editor.
+
+this is the birth of the first stage of the web revolution, usually refered as the read-only web.
+Websites were informational and contained only static content that was hyperlinked together.
+
+The websites were built using Server Side Includes or Common Gateway Interface (CGI) 
+instead of a web application written in a dynamic programming language such as Perl, PHP, Python or Ruby.
+
+Users on the internet were consumers of content created by content creators.
+
+You were not able to send files from one computer to another
+Use of floppy discs to transfer files
+Emergence of www in the early 1990s
+
+TECH:
+HTML
+XML 1998
+First web browsers
+Search engines
+Wikipedia (2001 foundation)
+
+
+web2
+the second stage offers a read-write web.
+Emphasis that user generated content, boost the culture of participation and interoperability.
+this brought about a fundamental shift, where people could share their perspectives, 
+opinions, thoughts, and experiences through a variety of online tools and platforms like Youtube, Twitter, Facebook.
+and the emerging of e-commerce and search engines like google and amazon.
+
+the data is stored in a centralized server or cloud provider controlled by the big corporates.
+This is a little controversial because the data can be used as information to promote the comsumption from the users
+At the End users are the product - Data Breaches
+
+Revolutionized social interactions
+Emergence of social media, e-commerce, etc.
+P2P interactions on a GLOBAL scale
+HTML code use in websites, leading to much prettier UIs
+Data is stored on servers, drives, and the cloud
+The “Frontend Revolution”
+
+TECH
+HTML5 (2014) replace HTML4 ()Flash Player, DOM Level2, Audio, Video, semantic Tagging, Ontology,  
+Javascript - liveScript (1995) for Netscape - Brendan Eich
+CSS3 (2012) Cascading styles sheets
+
+
+web3
+the third stage aims to create a dezentralized (use decentralized protocols) networks, 
+but secure (self-governing), (smart contracts) to reduce as much data as posible
+internet in which people can securely exchange money and information, 
+without the need for middlemen or big tech companies.
+the power of investors and stackeholders
+web3 as the solution for the massive networking between users and the increasing use of the Internet.
+Web 3 applications either runs on blockchain, peer to peer nodes (servers).
+Some people predict that in web3, you will be the content owner.
+Corporations has to run their applications in groups called  DAO (Decentralized Autonomous Organization)
+There is no need for CEO or upper management in a company.
+Because your digital identity is not tied to your real identity in web3, 
+you can be anonymous on the internet while still living your usual life.
+Cryptocurrency is built on top of the internet itself
+
+What is Blockchain
+basically are blockchains chunks of data, It can be a financial transaction, an invoice, a bill of lading, most anything really that can be stored digitally. 
+that block also includes something else — a hash from the block added to the chain right before it.
+What is a hash? Think of it as a mathematically calculated fingerprint that represents all the data in that block.
+Each block includes the fingerprint of the prior block, and it’s this chaining of hashes that gives the blockchain its immutable properties. 
+If someone were to go back and change a transaction in the chain, that would change the hash of that block and also all the subsequent hashes.
+Blockchain as a Services (BaaS) or Backend as a Service
+
+AWS a cloud-managed platform that allows people and organizations to more easily and quickly build, host, and manage blockchain applications.
+
+TECH
+Token Economy
+Reinvents the way data is stored and managed on the internet
+Enable TRUE P2P Interactions
+The “Backend Revolution”
+
+Problems:
+The technology does not solve a real problem, blockchain simply recreating slower and worse versions of processes and structures that already exist.
+So called “cryptocurrencies” aren’t actually currencies, and cannot fulfil the function of money because they are not stable and Money is always going to be inseparable from politics.
+The history of private money is one of repeated disasters that destroy public trust.
+Crypto assets are all unregistered securities.
+
+
+The compute and bandwidth problem to scale blockchain.
+Mining is not eco-friendly and consumes a lot of energy to mine and verify transactions. Here's a Cambridge University article about it.
+If you’re familiar with other databases, you’ll notice that this ledger sounds a lot like transaction logs or journaling. 
+
+cloud
+AWS entered the race a little late but offers a stable solution with AWS Blockchain Templates is a feature that makes them different from other BaaS providers.
+Does not offer a dedicated Workbench like Azure
+Microsoft Azure blockchain was the first major tech company to announce BaaS functionality to companies and developers and also has the largest compliance portfolio in the industry.
+Azure allows you to work on the most commonly used blockchain network Ethereum. 
+IBM Cloud was one of the first significant cloud operators to get into the hosted blockchain game. 
+As a result, it has one of the most mature offerings. 
+IBM hosts blockchains for some mega corporations, such as Walmart, and shipping giant Maersk. 
+Additionally, IBM has and continues to contribute heavily to Hyperledger Fabric, a very popular open-source blockchain framework – and the software behind their branded blockchain offerings.
+Oracle Cloud also works with Hyperledger Fabric, They currently host blockchains in the fashion, transport, healthcare, and financial services industries. 
+Both Oracle and IBM leverage their large enterprise customer relationships to promote their blockchain offerings – it’s just another tool in the toolbox for their customers.
+
+Azure and SAP have made 2019 a step back from Blockchain.
+
+According to Gartner’s famed Hype Cycle, blockchain-as-a-service is currently drudging through what Gartner calls “the trough of disillusionment.” 
+Meaning, all those elevated expectations are being hashed out, no pun intended.
+
+Sumary
+The main take-away point you wanted to get from that is that Web3 completely changes how the backend of the internet works, 
+just like how Web2 completely changed how the frontend of the internet works from Web1.
+If Your lose your key then You lose your bitcoins
+
+sources:
+https://dev.to/narottam04/web-10-web-20-web-30-explained-591n
+https://messari.io/screener
+https://decrypt.co/
+https://a16z.com/web3-policy/
+https://lbry.com/
+https://coinmarketcap.com/alexandria/de/article/what-is-web-3-0
+https://aleph.im/#/architecture
+https://thenewstack.io/aleph-im-is-like-a-decentralized-aws-lambda-for-web3-dapps/
+https://www.stephendiehl.com/blog/blockchainism.html
+https://101blockchains.com/aws-vs-azure-vs-oracle-blockchain/
+https://academy.101blockchains.com/courses/ethereum-technology-course
+https://101blockchains.com/aws-vs-azure-vs-oracle-blockchain/
+https://medium.com/the-capital/what-is-web3-and-why-is-it-important-to-understand-in-2022-904deedb86cd
+https://acloudguru.com/blog/engineering/blockchain-cloud-comparison-what-is-blockchain-as-a-service-baas
+https://john-mecke.medium.com/5-stories-about-people-who-lost-their-bitcoin-cdaaae329468
+https://techcrunch.com/2016/12/30/blockchain-technologies-entered-the-trough-of-disillusionment-in-2016-but-2017-will-be-brighter/
+The future of blockchain 
+https://www.youtube.com/watch?v=V_hWgZc9xrU
+https://opencollective.com/democracyearth
