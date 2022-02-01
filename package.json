@@ -4,7 +4,12 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --output public"
+  },
+  "targets": {
+    "default": {
+      "distDir": "./public"
+    }
   },
   "devDependencies": {
     "parcel": "^2.0.0"
