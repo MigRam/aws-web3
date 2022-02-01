@@ -4,7 +4,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --output public"
+    "build": "parcel build"
   },
   "targets": {
     "default": {
